@@ -159,8 +159,7 @@ function shiftNodes(BST, u, v) {
 
 function preorderTreeWalk(x) {
   if (x !== null) {
-    // Visit the node (perform any desired operation)
-    console.log(x.key); // Change this line according to your requirements
+    console.log(x.key);
     preorderTreeWalk(x.left);
     preorderTreeWalk(x.right);
   }
@@ -169,8 +168,7 @@ function preorderTreeWalk(x) {
 function inorderTreeWalk(x) {
   if (x !== null) {
     inorderTreeWalk(x.left);
-    // Visit the node (perform any desired operation)
-    console.log(x.key); // Change this line according to your requirements
+    console.log(x.key);
     inorderTreeWalk(x.right);
   }
 }
@@ -179,7 +177,6 @@ function postorderTreeWalk(x) {
   if (x !== null) {
     postorderTreeWalk(x.left);
     postorderTreeWalk(x.right);
-    // Visit the node (perform any desired operation)
-    console.log(x.key); // Change this line according to your requirements
+    console.log(x.key); 
   }
 }
